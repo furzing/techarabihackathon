@@ -6,7 +6,7 @@ google-generativeai
 python-dotenv
 aiofiles
 pydantic
-fastapi=
+fastapi
 uvicorngit
 groq
 python-dotenv
