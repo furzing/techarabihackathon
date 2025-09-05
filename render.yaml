@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: dehub-design-analyzer
+    env: docker
+    plan: free
+    autoDeploy: true
+    healthCheckPath: /rate-limit
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_ANON_KEY
+        sync: false
+      - key: PORT
+        value: 8000
+
