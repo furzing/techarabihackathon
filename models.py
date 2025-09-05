@@ -1,6 +1,6 @@
 from pydantic import BaseModel
 from typing import List, Dict, Optional
-from datetime import datetime
+from datetime import datetime , date
 
 class DesignChange(BaseModel):
     category: str  # layout, color, typography, spacing, content, etc.
